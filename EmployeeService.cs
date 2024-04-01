@@ -92,10 +92,7 @@ namespace  Employee.Service.Service
             throw new NotImplementedException();
         }
 
-        IEnumerable<Emp> IEmployeeService.GetList()
-        {
-            throw new NotImplementedException();
-        }
+        IEnumerable<Emp> IEmployeeService.List => throw new NotImplementedException();
 
         public void AddOrUpdate(Emp model)
         {

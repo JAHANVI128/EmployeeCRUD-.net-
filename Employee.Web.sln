@@ -7,34 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee.Web", "Employee.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employees.Common", "..\Employees.Common\Employees.Common.csproj", "{E164C396-5950-4C9E-B4AC-CFF4AD6243DA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee.IService", "Employee.IService", "{C4A8B434-E908-4A0C-8AA2-4C3EC33713DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Models", "..\ClassLibrary1\Employee.Models.csproj", "{0860B5BE-B969-4880-B8FB-C5AAB76AB147}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee.Security", "Employee.Security", "{2A19FE96-F700-4B81-AFB5-B74BD6B53A02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees.IService", "..\Employees.IService\Employees.IService.csproj", "{199C14B5-F67B-4109-9447-BC2F7B9CBE79}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee.Models", "Employee.Models", "{8E26EC0E-AA10-488B-A37F-C5494AC250BE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Employee.Service", "Employee.Service", "{6640A113-5FC0-490B-8CC2-81B48A129A75}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{8F9F71A5-68D8-4C4E-889C-61F39D8EDC27}"
-	ProjectSection(SolutionItems) = preProject
-		IEmployeeService.cs = IEmployeeService.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E88CEF75-3E06-43CD-A692-40C7C4B2AFA0}"
-	ProjectSection(SolutionItems) = preProject
-		EmployeeModel.cs = EmployeeModel.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{6E382524-A7B8-4213-B2C0-5BD2C364170E}"
-	ProjectSection(SolutionItems) = preProject
-		EmployeeService.cs = EmployeeService.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{F67F4B16-A427-4141-86DF-FE034EFCC2D0}"
-	ProjectSection(SolutionItems) = preProject
-		CommonModel.cs = CommonModel.cs
-		Enum.cs = Enum.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee.Service", "..\Employee.Service\Employee.Service.csproj", "{1C23AC97-C487-4A4D-98F7-CD3B38BAAB0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,15 +27,21 @@ Global
 		{E164C396-5950-4C9E-B4AC-CFF4AD6243DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E164C396-5950-4C9E-B4AC-CFF4AD6243DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E164C396-5950-4C9E-B4AC-CFF4AD6243DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0860B5BE-B969-4880-B8FB-C5AAB76AB147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0860B5BE-B969-4880-B8FB-C5AAB76AB147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0860B5BE-B969-4880-B8FB-C5AAB76AB147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0860B5BE-B969-4880-B8FB-C5AAB76AB147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199C14B5-F67B-4109-9447-BC2F7B9CBE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199C14B5-F67B-4109-9447-BC2F7B9CBE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199C14B5-F67B-4109-9447-BC2F7B9CBE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199C14B5-F67B-4109-9447-BC2F7B9CBE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C23AC97-C487-4A4D-98F7-CD3B38BAAB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C23AC97-C487-4A4D-98F7-CD3B38BAAB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C23AC97-C487-4A4D-98F7-CD3B38BAAB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C23AC97-C487-4A4D-98F7-CD3B38BAAB0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8F9F71A5-68D8-4C4E-889C-61F39D8EDC27} = {C4A8B434-E908-4A0C-8AA2-4C3EC33713DD}
-		{E88CEF75-3E06-43CD-A692-40C7C4B2AFA0} = {8E26EC0E-AA10-488B-A37F-C5494AC250BE}
-		{6E382524-A7B8-4213-B2C0-5BD2C364170E} = {6640A113-5FC0-490B-8CC2-81B48A129A75}
-		{F67F4B16-A427-4141-86DF-FE034EFCC2D0} = {8E26EC0E-AA10-488B-A37F-C5494AC250BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33FC6F2F-CDF1-4111-8ACC-DBC6B9E7B370}
